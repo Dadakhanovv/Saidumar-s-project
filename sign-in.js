@@ -4,7 +4,7 @@ const secondPageUnderBtn = document.getElementById("second-page-under-btn");
 const secondPageBtn = document.getElementById("second-page-btn");
 
 secondPageUnderBtn.addEventListener("click", function () {
-  window.location.href = "main.html";
+  window.location.href = "index.html";
 });
 
 secondPageBtn.addEventListener("click", function () {

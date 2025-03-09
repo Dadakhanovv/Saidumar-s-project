@@ -12,7 +12,7 @@
 const logoutBtnEl = document.getElementById("logout-btn");
 
 logoutBtnEl.addEventListener("click", function () {
-  window.location.href = "main.html";
+  window.location.href = "index.html";
 });
 
 let student = JSON.parse(sessionStorage.getItem("firstPageBtn"));
