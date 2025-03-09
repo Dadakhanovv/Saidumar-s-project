@@ -1,0 +1,57 @@
+* {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  box-sizing: border-box;
+}
+
+body {
+  background: linear-gradient(71.17deg, #feaf00 19.35%, #f8d442 90.12%);
+}
+
+.sign-up-page {
+  margin: 0 auto;
+  background-color: white;
+  box-shadow: 2px 5px 10px 0px #0000001A;   
+}
+
+.first-page-sub_title {
+  margin: 0 auto;
+  font-size: 32px;
+  font-weight: bold;
+  border-left: solid #f8d442;
+  width: 39;
+  top: 219px;
+  left: 549px;
+  border-left-width: 6px;
+  padding-left: 8px;
+} 
+
+.first-page-title {
+  font-weight: 600;
+  font-size: 22px;
+  text-transform: uppercase;
+  color: black;
+  margin: 0 auto;
+  margin-top: 43px;
+}
+
+.first-page-under_title {
+  color: grey;
+  font-weight: 400;
+  font-size: 14px;
+  margin: 0 auto;
+  margin-bottom: 50px;
+}
+
+.first-page-btn {
+  font-weight: 500;
+  font-size: 14px;
+  background: #feaf00;
+  transition: 0.3s ease-in-out;
+  margin-bottom: 30px;
+  margin-top: 10px;
+}
+
+.first-page-btn:hover {
+  background: #dc9600;
+}
